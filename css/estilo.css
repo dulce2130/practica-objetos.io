@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    background-color: #F9F9F9;
+}
+h1{
+    background: #92C7CF;
+    font-family: Roboto Condensed;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#contenido{
+    display: flex;
+    
+}
+.divSelect{
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+}
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto{
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    background: white;
+    padding:15px;
+    align-items: center;
+    border:1px dashed #E5E1DA;
+    border-radius: 30px;
+}
+
+.divImg{
+    width: 200px;
+    height: 250px;
+    background: white;
+
+}
+
+.imagen{
+    width: 180px;
+}
+
+h3{
+    width: 99%;
+    font-family: Roboto Condensed;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 50px;
+    background: white;
+
+}
+
+.selector{
+    margin: 5px;
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    background: white;
+
+}
+
+.agregar{
+    width: 95%;
+    margin: 5px;
+    height: 30px;
+    color: #4682A9;
+    background: white;
+    border: 1px solid #4682A9;
+    border-radius: 20px;
+}
+
+.agregar:hover{
+    color: #92C7CF;
+    border: 1px solid #92C7CF;
+    box-shadow: 0px 5px #92C7CF;
+    cursor: pointer;
+}
+
+h2{
+    width: 99%;
+    font-family: Roboto Condensed;
+    text-align: center;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+}
+#contCar{
+    width: 30%;
+    text-align: center;
+}
+#carrito{
+    width: 100%;
+}
+
+.imagenCar{
+    width: 60px;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+.itemCarrito{
+    display: flex;
+    align-items: center;
+}
+.cantidad{
+    width: 40px;
+    border: 1px solid #E5E1DA;
+    border-radius: 10px;
+    background: white;
+    margin-right: 2px;
+}
+.eliminar{
+    margin-left: 4px;
+    color: #4682A9;
+    background: white;
+    border: 1px solid #4682A9;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.eliminar:hover{
+    color: #92C7CF;
+    border: 1px solid #92C7CF;
+    box-shadow: 0px 5px #92C7CF;
+    cursor: pointer;
+}
+
+#totalCarrito{
+    text-align: center;
+    margin: 30px;
+    font-family: Roboto Condensed;
+}
